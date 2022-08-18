@@ -5,6 +5,7 @@
 	box-sizing: border-box;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
 		sans-serif;
+	 scroll-behavior: smooth;
 }
 body {
 	background-image: url('./assets/fondo.png');
@@ -21,12 +22,15 @@ body {
 }
 #productos {
 	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
 	justify-content: space-around;
 	margin-bottom: 50px;
 }
 
 @media (min-width: 200px) and (max-width: 500px) {
 	#productos {
+		width: 100%;
 		display: grid;
 		grid-template-columns: 2fr;
 		gap: 8px;
@@ -35,6 +39,7 @@ body {
 }
 @media (min-width: 501px) and (max-width: 800px) {
 	#productos {
+			width: 100%;
 		display: grid;
 		grid-template-columns: 2fr 2fr;
 		gap: 10px;
@@ -43,6 +48,7 @@ body {
 }
 @media (min-width: 801px) and (max-width: 1200px) {
 	#productos {
+		width: 100%;
 		display: grid;
 		grid-template-columns: 2fr 2fr;
 		gap: 10px;

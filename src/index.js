@@ -23,7 +23,12 @@ root.render(
 		<main>
 			<div className='description'>
 				<h1>¿Quienes Somos?</h1>
-				<p>aqui va la de descripcion y faltan fotos de los productos</p>
+						<hr />
+				<p>
+					Somos una empresa colombiana que se encarga de la venta de productos para mascotas para
+					mejorar su estilo de vida y faciitar algunas de sus necesidades.
+				</p>
+		
 			</div>
 			<div id='productos'>
 				<Section

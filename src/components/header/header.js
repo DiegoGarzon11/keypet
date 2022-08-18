@@ -6,6 +6,7 @@ function Header() {
 	return (
 		<>
 			<header className='header' id='header'>
+		
 				<div className='container'>
 					<img src={img} className='logo' alt='' width='250' height='210' />
 					<h1 className='title'> key-Pet</h1>

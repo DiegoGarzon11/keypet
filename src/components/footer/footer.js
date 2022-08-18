@@ -4,7 +4,6 @@ import './footer.css';
 function Footer() {
 	return (
 		<>
-		
 			<footer>
 				<h3 className='title-contactos'>contactanos</h3>
 				<div id='contactos'>
@@ -21,7 +20,13 @@ function Footer() {
 					<option value=' correo'>keypetcol@gmail.com</option>
 				</div>
 				<div className='copy'>
+					
 					<p>&copy;2022</p>
+					
+						<button className='inicio'>
+							<a href='#header'>ir a inicio</a>
+						</button>
+
 				</div>
 			</footer>
 		</>
