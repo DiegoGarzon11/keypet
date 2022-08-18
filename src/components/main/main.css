@@ -15,6 +15,7 @@ section:hover {
 .imagen {
 	width: 250px;
 	height: 300px;
+	border-radius: 20px;
 }
 .product {
 	width: 80%;
