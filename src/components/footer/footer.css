@@ -3,7 +3,7 @@ footer {
 	flex-direction: column;
 	background-color: rgb(204, 193, 193);
 }
-#contactos a {
+#contactos a,a {
 	color: black;
 	text-decoration: none;
 }

@@ -21,7 +21,14 @@ function Footer() {
 					<option value=' correo'>keypetcol@gmail.com</option>
 				</div>
 				<div className='copy'>
-					<p>&copy;{año}</p>
+					<p>
+						Made with 💟 &copy; by{' '}
+						<a href='https://diegogarzon.netlify.app' target='_blank' rel='noreferrer'>
+							Diego Garzon{' '}
+						</a>
+						<b>COLOMBIA </b>
+						{año}
+					</p>
 
 					<button className='inicio'>
 						<a href='#header'>ir a inicio</a>
