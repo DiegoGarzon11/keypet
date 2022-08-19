@@ -56,26 +56,26 @@ object {
 	width: 80%;
 }
 @media (min-width: 501px) and (max-width: 800px) {
-		section {
-			width: 90%;
+	section {
+		width: 90%;
 		display: flex;
 		justify-content: flex-start;
 		height: auto;
-		}
+	}
 }
 @media (min-width: 200px) and (max-width: 500px) {
-		section {
-				width: 90%;
-		 padding:10px;
+	section {
+		width: 90%;
+		padding: 10px;
 		height: auto;
-		}
+	}
 }
 @media (min-width: 800px) and (max-width: 1200px) {
-		section {
-				width: 90%;
-				display: flex;
-				justify-content: flex-start;
-		 padding:10px;
+	section {
+		width: 90%;
+		display: flex;
+		justify-content: flex-start;
+		padding: 10px;
 		height: auto;
-		}
+	}
 }
