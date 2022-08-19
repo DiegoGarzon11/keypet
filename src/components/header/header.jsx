@@ -15,6 +15,7 @@ function Header() {
 					<a href='#productos'>productos</a>
 				</nav>
 			</header>
+			<hr />
 		</>
 	);
 }

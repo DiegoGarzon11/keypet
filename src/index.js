@@ -12,39 +12,41 @@ root.render(
 	<React.StrictMode>
 		<Header />
 		<main>
-			<div className="description">
-				<h1>¿Quienes Somos?</h1>
+			<div className='description'>
+				<h1>¿Que es key-pet?</h1>
 				<hr />
 				<p>
-					Somos una empresa colombiana que se encarga de la venta de productos para mascotas para mejorar su
-					estilo de vida y faciitar algunas de sus necesidades.
+					Somos una empresa que ofrece un servicio de venta de accesorios de alta calidad,
+					funcionalidad y comodidad para el cuidado y protección de nuestros peludos, así mismo, la
+					adquisición de nuestros productos se hace de manera ágil y fácil a través de diferentes
+					canales de e-commerce, usando medios de pagos seguros y ágiles.
 				</p>
 			</div>
-			<div id="productos">
+			<div id='productos'>
 				<Section
-					titulo="Guantes"
-					dProducto="guante de cepillo de limpieza para perros y gatos de malla transpirable multifuncional personalizado"
-					id="guante"
+					titulo='Guantes'
+					dProducto='guante de cepillo de limpieza para perros y gatos de malla transpirable multifuncional personalizado'
+					id='guante'
 				/>
 				<Section
-					titulo="Botella multiusos"
-					dProducto="botella multiusos 4 opciones en uno para tus mascotas portable, sin fugas, dispensador de agua perfecta para tus viajes, salidas al medio ambiente, acampar y senderismo, viajes."
-					id="botella"
+					titulo='Botella multiusos'
+					dProducto='botella multiusos 4 opciones en uno para tus mascotas portable, sin fugas, dispensador de agua perfecta para tus viajes, salidas al medio ambiente, acampar y senderismo, viajes.'
+					id='botella'
 				/>
 				<Section
-					titulo="Bolsas"
-					dProducto="dispensador de bolsa para excrementos de perro biodegradable personalizado, bolsa de limpieza, soporte para bolsa de basura para tus mascotas."
-					id="bolsas"
+					titulo='Bolsas'
+					dProducto='dispensador de bolsa para excrementos de perro biodegradable personalizado, bolsa de limpieza, soporte para bolsa de basura para tus mascotas.'
+					id='bolsas'
 				/>
 				<Section
-					titulo="Tazon portable"
-					dProducto="tazón plegable portátil para tus mascotas con 1 mosquetones para paseos, estacionamiento y viajes, para agua y comida."
-					id="platon"
+					titulo='Tazon portable'
+					dProducto='tazón plegable portátil para tus mascotas con 1 mosquetones para paseos, estacionamiento y viajes, para agua y comida.'
+					id='platon'
 				/>
 				<Section
-					titulo="Cepillo"
-					dProducto="cepillo suave para el baño de tus mascotas, una agradable textura para masajear para tu perro y gatos."
-					id="cepillo"
+					titulo='Cepillo'
+					dProducto='cepillo suave para el baño de tus mascotas, una agradable textura para masajear para tu perro y gatos.'
+					id='cepillo'
 				/>
 			</div>
 		</main>

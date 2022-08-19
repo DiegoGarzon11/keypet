@@ -2,6 +2,7 @@ import React from 'react';
 import './footer.css';
 
 function Footer() {
+	let año = new Date().getFullYear();
 	return (
 		<>
 			<footer>
@@ -20,13 +21,11 @@ function Footer() {
 					<option value=' correo'>keypetcol@gmail.com</option>
 				</div>
 				<div className='copy'>
-					
-					<p>&copy;2022</p>
-					
-						<button className='inicio'>
-							<a href='#header'>ir a inicio</a>
-						</button>
+					<p>&copy;{año}</p>
 
+					<button className='inicio'>
+						<a href='#header'>ir a inicio</a>
+					</button>
 				</div>
 			</footer>
 		</>

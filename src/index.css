@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
 	margin: 0%;
 	padding: 0%;
 	box-sizing: border-box;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
-		sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 body {
 	background-image: url('./assets/fondo.png');
@@ -17,7 +16,10 @@ body {
 	padding: 50px;
 }
 .description p {
-	width: 80%;
+	padding-top: 15px;
+	text-align: center;
+	font-size: 20px;
+	width: 100%;
 }
 #productos {
 	display: flex;
@@ -34,24 +36,31 @@ body {
 		grid-template-columns: 2fr;
 		gap: 8px;
 		justify-items: center;
+
+	}
+	.description p{
+		line-height: 30px;
 	}
 }
 @media (min-width: 501px) and (max-width: 800px) {
 	#productos {
+		
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
 		width: 100%;
-		display: grid;
-		grid-template-columns: 2fr 2fr;
-		gap: 10px;
-		justify-items: center;
+	
+	
 	}
 }
 @media (min-width: 801px) and (max-width: 1200px) {
-	#productos {
+		#productos {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
 		width: 100%;
-		display: grid;
-		grid-template-columns: 2fr 2fr;
-		gap: 10px;
-		justify-items: center;
 	}
 }
 ::-webkit-scrollbar {
