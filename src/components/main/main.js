@@ -6,11 +6,10 @@ function Section(props) {
 		<>
 			<section>
 				<h4>{props.titulo}</h4>
-				<object className='img_container' id='guante'>
-					<img src={props.img} alt='' className='imagen' />
+				<object className="img_container">
+					<div className="imagen" id={props.id} />
 				</object>
-
-				<p className='product'>{props.dProducto}</p>
+				<p className="product">{props.dProducto}</p>
 			</section>
 		</>
 	);

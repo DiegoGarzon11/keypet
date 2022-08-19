@@ -6,19 +6,105 @@ section {
 	flex-direction: column;
 	width: 30%;
 }
+#guante:hover, #botella:hover, #platon:hover,#bolsas:hover,#cepillo:hover {
+	animation: none;
+}
+#guante{
+	background-image: url(../../assets/guantemilo.png);
+	animation: guante 5s infinite alternate;
+}
+#botella{
+	background-image: url(../../assets/multiusosmilo.png);
+	animation: botella 5s infinite alternate;
+}
+#platon{
+	background-image: url(../../assets/platomilo.png);
+	animation: platon 5s infinite alternate;
+}
+#bolsas{
+	background-image: url(../../assets/bolsasmilo.png);
+	animation: bolsas 5s infinite alternate;
+}
+#cepillo{
+	background-image: url(../../assets/cepillosolo.png);
+	animation: cepillo 5s infinite alternate;
+}
+#guante, #botella, #platon, #bolsas, #cepillo {
+	display: block;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 80%;
+	background-position: fixed;
+}
+
+@keyframes guante {
+	33% {
+		background-image: url(../../assets/guantemilo.png);
+	}
+	66% {
+		background-image: url(../../assets/guantemascota.png);
+	}
+	100% {
+		background-image: url(../../assets/guante.png);
+	}
+}
+@keyframes botella {
+	33% {
+		background-image: url(../../assets/multiusosmilo.png);
+	}
+	66% {
+		background-image: url(../../assets/multiusosfuncion.png);
+	}
+	100% {
+		background-image: url(../../assets/multisusosrosa.png);
+	}
+}
+@keyframes platon {
+	33% {
+		background-image: url(../../assets/platomilo.png);
+	}
+	66% {
+		background-image: url(../../assets/platos.png);
+	}
+	100% {
+		background-image: url(../../assets/plato.png);
+	}
+}
+@keyframes bolsas {
+	33% {
+		background-image: url(../../assets/bolsasmilo.png);
+	}
+	66% {
+		background-image: url(../../assets/bolsas.png);
+	}
+	100% {
+		background-image: url(../../assets/bolsa.png);
+	}
+}
+@keyframes cepillo {
+	33% {
+		background-image: url(../../assets/cepillobaño.png);
+	}
+	66% {
+		background-image: url(../../assets/cepillomascota.png);
+	}
+	100% {
+		background-image: url(../../assets/cepillosolo.png);
+	}
+}
+
+
 section:hover {
-	border-bottom: 2px solid black;
 	box-shadow: 0px 15px 0px rgba(0, 0, 0, 0.5);
 	border-radius: 20px;
 }
 
 .imagen {
-	width: 250px;
-	height: 300px;
+	height: 350px;
 	border-radius: 20px;
 }
 .product {
-	width: 80%;
+	width: 90%;
 	text-align: center;
 	text-transform: lowercase;
 }
@@ -53,22 +139,23 @@ footer {
 object {
 	display: flex;
 	justify-content: center;
-	width: 80%;
+	width: 100%;
 }
-@media (min-width: 501px) and (max-width: 800px) {
-		section {
-			width: 90%;
-		display: flex;
-		justify-content: flex-start;
-		height: auto;
-		}
-}
+
 @media (min-width: 200px) and (max-width: 500px) {
 		section {
-				width: 90%;
-		 padding:10px;
+	   width: 100%;
+		background: fixed;
 		height: auto;
 		}
+}
+@media (min-width: 501px) and (max-width: 800px) {
+	section {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	height: auto;
+	}
 }
 @media (min-width: 800px) and (max-width: 1200px) {
 		section {
