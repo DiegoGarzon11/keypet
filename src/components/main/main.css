@@ -6,30 +6,38 @@ section {
 	flex-direction: column;
 	width: 30%;
 }
-#guante:hover, #botella:hover, #platon:hover,#bolsas:hover,#cepillo:hover {
+#guante:hover,
+#botella:hover,
+#platon:hover,
+#bolsas:hover,
+#cepillo:hover {
 	animation: none;
 }
-#guante{
+#guante {
 	background-image: url(../../assets/guantemilo.png);
 	animation: guante 5s infinite alternate;
 }
-#botella{
+#botella {
 	background-image: url(../../assets/multiusosmilo.png);
 	animation: botella 5s infinite alternate;
 }
-#platon{
+#platon {
 	background-image: url(../../assets/platomilo.png);
 	animation: platon 5s infinite alternate;
 }
-#bolsas{
+#bolsas {
 	background-image: url(../../assets/bolsasmilo.png);
 	animation: bolsas 5s infinite alternate;
 }
-#cepillo{
+#cepillo {
 	background-image: url(../../assets/cepillosolo.png);
 	animation: cepillo 5s infinite alternate;
 }
-#guante, #botella, #platon, #bolsas, #cepillo {
+#guante,
+#botella,
+#platon,
+#bolsas,
+#cepillo {
 	display: block;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -93,7 +101,6 @@ section {
 	}
 }
 
-
 section:hover {
 	box-shadow: 0px 15px 0px rgba(0, 0, 0, 0.5);
 	border-radius: 20px;
@@ -139,30 +146,46 @@ footer {
 object {
 	display: flex;
 	justify-content: center;
-	width: 100%;
-}
 
-@media (min-width: 200px) and (max-width: 500px) {
-		section {
-	   width: 100%;
-		background: fixed;
-		height: auto;
-		}
+	width: 100%;
+
+	width: 80%;
 }
 @media (min-width: 501px) and (max-width: 800px) {
 	section {
-	width: 100%;
-	display: flex;
-	justify-content: flex-start;
-	height: auto;
+		width: 90%;
+		display: flex;
+		justify-content: flex-start;
+		height: auto;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+	section {
+		width: 100%;
+		background: fixed;
+	}
+	section {
+		width: 90%;
+		padding: 10px;
+
+		height: auto;
+	}
+}
+@media (min-width: 501px) and (max-width: 800px) {
+	section {
+		width: 100%;
+		display: flex;
+		justify-content: flex-start;
+		height: auto;
 	}
 }
 @media (min-width: 800px) and (max-width: 1200px) {
-		section {
-				width: 90%;
-				display: flex;
-				justify-content: flex-start;
-		 padding:10px;
+	section {
+		width: 90%;
+		display: flex;
+		justify-content: flex-start;
+		padding: 10px;
 		height: auto;
-		}
+	}
 }
