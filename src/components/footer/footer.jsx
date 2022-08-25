@@ -11,7 +11,8 @@ function Footer() {
 					<a
 						href='https://api.whatsapp.com/send?phone=573102986082&text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20producto'
 						rel='noreferrer'
-						target='_blank'>
+						target='_blank'
+					>
 						Whatsapp
 					</a>
 					<br />
@@ -22,12 +23,12 @@ function Footer() {
 				</div>
 				<div className='copy'>
 					<p>
-						Made with 💟 &copy; by{' '}
+						Made with ♥ by{' '}
 						<a href='https://diegogarzon.netlify.app' target='_blank' rel='noreferrer'>
 							Diego Garzon{' '}
 						</a>
-						<b>COLOMBIA </b>
-						{año}
+						<b>colombia </b>
+						{año} &copy;
 					</p>
 
 					<button className='inicio'>

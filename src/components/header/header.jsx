@@ -2,6 +2,7 @@ import React from 'react';
 import './header.css';
 import img from '../../assets/keypet.png';
 
+
 function Header() {
 	return (
 		<>
@@ -11,8 +12,13 @@ function Header() {
 					<h1 className='title'> key-Pet</h1>
 				</div>
 				<nav className='nav'>
+					
 					<a href='#contactos'>contactos</a>
-					<a href='#productos'>productos</a>
+					<a href='#productos'> Producto</a>
+					<a href='https://listado.mercadolibre.com.co/animales-mascotas/perros/keypet_OrderId_PRICE_NoIndex_True' target= "_blank" rel='noreferrer'>
+						Comprar
+					</a>
+
 				</nav>
 			</header>
 			<hr />
